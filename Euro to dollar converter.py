@@ -1,6 +1,8 @@
 import requests
 from dotenv import dotenv_values
 
+#'t Is me niet gelukt om de API token af te schermen van m'n code zonder dat het script crashte, wellicht
+# dat we daar even naar kunnen kijken tijdens de les?
 
 def get_exchange_rate(api_key, target_currency):
     url = f"https://v6.exchangerate-api.com/v6/{api_key}/latest/EUR"
